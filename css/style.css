@@ -1,0 +1,128 @@
+a{
+   text-decoration: none;
+}
+ul,ol{
+   list-style: none;
+}
+/* ======================
+    navber part start
+========================== */
+nav{
+    background: #1C1E53;
+    padding: 16px 0px !important;
+}
+ .navbar-nav{
+    column-gap: 32px;
+
+}
+ .nav-link{
+    color: #BBBBCB;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    transition: .5s;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    
+
+}
+ .nav-link:hover{
+    color: #FFFFFF;
+    
+
+}
+ .nav-button{
+    background:transparent;
+    border: 1px solid rgba(244, 246, 252,0.20);
+    padding: 16px 48px;
+    border-radius: 41px;
+     color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    margin-left: 48px;
+    transition: .4s;
+
+ }
+ .nav-button:hover{
+    background: #FCD980;
+    color: black;
+
+ }
+
+
+/* ========================= 
+    navber part end
+=========================== */
+/* ========================= 
+    Banner part start
+=========================== */
+.banner{
+   background: #1C1E53;
+   padding: 128px 0px;
+}
+.banner h1{
+     color: #fff;
+    font-size: 54px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+
+}
+.banner p{
+     color: rgba(255, 255, 255,0.7);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    width: 562px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    line-height: 33px;
+
+}
+.banner-button{
+   background:#FCD980;
+   border: 1px solid transparent;
+    padding: 16px 56px;
+    border-radius: 41px;
+     color: #1B1C2B;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    transition: .4s;
+
+}
+.banner-button:hover{
+   border-color: #FCD980;
+   color: #FCD980;
+   background: transparent;
+
+}
+.viewpricing-button{
+     color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-left: 40px;
+    position: relative;
+
+
+}
+.viewpricing-button i{
+   position: absolute;
+   top: 50%;
+   right: -35px;
+   transform: translateY(-50%);
+   transition: .4s;
+   opacity: 0;
+}
+
+.viewpricing-button:hover i{
+    right: -55px;
+    opacity: 1;
+
+}
+/* ========================= 
+    Banner part end
+=========================== */
