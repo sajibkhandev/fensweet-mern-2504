@@ -221,3 +221,67 @@ nav {
 /* ========================= 
     project part end
 =========================== */
+
+/* ========================= 
+    Feature part start
+=========================== */
+.feature {
+  background: #F4F6FC;
+  padding: 128px 0px;
+}
+.feature .row{
+  row-gap: 30px;
+  padding-top: 47px;
+}
+.feature .title h2{
+  width: 630px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.feature .title p{
+  width: auto;
+  text-align: center;
+  
+}
+.feature .card{
+  width: 100% !important;
+  padding: 58px 32px 48px 48px;
+  border: 0px;
+  box-shadow: 0px 10px 10px #3b3bc966;
+  transition: .4s;
+}
+.feature .card img{
+  width: 12%;
+}
+.feature .card .card-body{
+  padding: 0px;
+}
+.feature .card .card-title{
+  font-size: 24px;
+  font-weight: 500;
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  margin-top: 22px;
+  margin-bottom: 12px;
+
+}
+.feature .card .card-text{
+  font-size: 16px;
+  font-weight: 400;
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+
+}
+.feature .card:hover{
+  
+    scale: 1.05;
+    
+  
+
+
+}
+
+/* ========================= 
+    Feature part end
+=========================== */
