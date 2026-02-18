@@ -9,6 +9,10 @@ ul,
 ol {
   list-style: none;
 }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+}
 .title h2 {
   font-size: 48px;
   font-weight: 600;
@@ -412,4 +416,106 @@ nav {
 
 /* ========================= 
     Faq part end
+=========================== */
+/* ========================= 
+    contact part start
+=========================== */
+.contact .row{
+  --bs-gutter-x: 0rem;
+
+}
+.contact.row img{
+  width: 100%;
+
+}
+
+.contact .contact-image{
+  width: 100%;
+  height: 100%;
+  background: red;
+  position: relative;
+  overflow: hidden;
+
+}
+.contact .contact-image .overly{
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0,0.50);
+  position: absolute;
+  top: 0;
+  left: -100%;
+  padding: 96px;
+  color: white;
+  transition: .4s;
+  
+}
+.contact .contact-image:hover .overly{
+   left: 0%;
+
+}
+
+
+.contact .contact-content{
+  width: 100%;
+  height: 100%;
+  background: #1C1E53;
+  padding: 96px 96px 0px 96px;
+}
+.contact .contact-content h4{
+    color: #FFFFFF ;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  
+}
+.contact .contact-content p{
+    color: #F4F6FC ;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+margin-bottom: 0rem;
+padding-top: 16px;
+padding-bottom: 40px;
+
+}
+.contact .contact-content input{
+  width: 100%;
+  padding: 18px 32px;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255,0.05);
+  margin-bottom: 16px;
+  color: white;
+  font-size: 18px;
+
+}
+.contact .contact-content input::placeholder{
+  color: white;
+  font-size: 16px;
+
+}
+.contact .contact-content input:nth-child(3){
+  margin-bottom: 0px;
+  
+}
+.contact .contact-content button{
+  background: #FCD980;
+  padding: 16px 0px;
+  width: 100%;
+  border-radius: 41px;
+  font-size: 18px;
+  color: #1B1C2B;
+   font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin-top: 39px;
+  margin-bottom: 28px;
+}
+.contact .title{
+  text-align: center;
+}
+.contact .viewpricing-button{
+  color: white;
+}
+/* ========================= 
+    contact part end
 =========================== */
