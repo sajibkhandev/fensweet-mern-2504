@@ -1,6 +1,6 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -8,8 +8,21 @@ a {
 ul,
 ol {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
@@ -176,51 +189,43 @@ nav {
 /* ========================= 
     project part start
 =========================== */
-.project{
-    padding: 128px 0px;
+.project {
+  padding: 128px 0px;
 }
 .project .title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 64px;
 }
-.project .title a{
-    color: #282938;
+.project .title a {
+  color: #282938;
 }
-.project img:nth-child(2){
-    margin-top: 30px;
-
+.project img:nth-child(2) {
+  margin-top: 30px;
 }
-.project img:nth-child(0){
-    width: 100%;
-    height: 100%;
+.project img:nth-child(0) {
+  width: 100%;
+  height: 100%;
 }
-.project-card{
-    position: relative;
-    overflow: hidden;
-    
+.project-card {
+  position: relative;
+  overflow: hidden;
 }
-.project .overly{
-   background-image: linear-gradient(to bottom right, #1c1e536b,#1C1E53);
-    width: 52%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: -52%;
-    transition: .5s;
-    padding: 312px 37px 0px 51px;
-    color: white;
-    
-    
+.project .overly {
+  background-image: linear-gradient(to bottom right, #1c1e536b, #1c1e53);
+  width: 52%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -52%;
+  transition: 0.5s;
+  padding: 312px 37px 0px 51px;
+  color: white;
 }
-.project .project-card:hover .overly{
-    left: 0%;
-   
-     
-
+.project .project-card:hover .overly {
+  left: 0%;
 }
-
 
 /* ========================= 
     project part end
@@ -230,60 +235,51 @@ nav {
     Feature part start
 =========================== */
 .feature {
-  background: #F4F6FC;
+  background: #f4f6fc;
   padding: 128px 0px;
 }
-.feature .row{
+.feature .row {
   row-gap: 30px;
   padding-top: 47px;
 }
-.feature .title h2{
+.feature .title h2 {
   width: 630px;
   margin: 0 auto;
   text-align: center;
-  
 }
-.feature .title p{
+.feature .title p {
   width: auto;
   text-align: center;
-  
 }
-.feature .card{
+.feature .card {
   width: 100% !important;
   padding: 58px 32px 48px 48px;
   border: 0px;
   box-shadow: 0px 10px 10px #3b3bc966;
-  transition: .4s;
+  transition: 0.4s;
 }
-.feature .card img{
+.feature .card img {
   width: 12%;
 }
-.feature .card .card-body{
+.feature .card .card-body {
   padding: 0px;
 }
-.feature .card .card-title{
+.feature .card .card-title {
   font-size: 24px;
   font-weight: 500;
   color: #282938;
   font-family: "Poppins", sans-serif;
   margin-top: 22px;
   margin-bottom: 12px;
-
 }
-.feature .card .card-text{
+.feature .card .card-text {
   font-size: 16px;
   font-weight: 400;
   color: #282938;
   font-family: "Poppins", sans-serif;
-
 }
-.feature .card:hover{
-  
-    scale: 1.05;
-    
-  
-
-
+.feature .card:hover {
+  scale: 1.05;
 }
 
 /* ========================= 
@@ -292,52 +288,49 @@ nav {
 /* ========================= 
     About part start
 =========================== */
-.about{
-  background: #F4F6FC;
+.about {
+  background: #f4f6fc;
   padding: 128px 0px;
 }
-.about .title h2{
+.about .title h2 {
   font-size: 36px;
   width: 350px;
 }
-.about h3{
+.about h3 {
   font-size: 32px;
-  font-weight:500;
+  font-weight: 500;
   color: #282938;
   font-family: "Poppins", sans-serif;
   line-height: 48px;
-
 }
-.about .profile{
+.about .profile {
   display: flex;
   align-items: center;
   column-gap: 14px;
   margin-top: 48px;
 }
-.about .profile-image{
+.about .profile-image {
   width: 52px;
   height: 52px;
   border-radius: 50%;
 }
-.about .profile-image img{
+.about .profile-image img {
   border-radius: 50%;
   width: 100%;
   height: 100%;
 }
-.about .profile h5{
-   font-size: 18px;
-  font-weight:500;
+.about .profile h5 {
+  font-size: 18px;
+  font-weight: 500;
   color: #282938;
   font-family: "Poppins", sans-serif;
-
 }
-.about .profile p{
-   font-size: 12px;
-  font-weight:500;
+.about .profile p {
+  font-size: 12px;
+  font-weight: 500;
   color: #282938;
   font-family: "Poppins", sans-serif;
   margin: 0px;
-
 }
 /* ========================= 
     About part end
@@ -345,74 +338,61 @@ nav {
 /* ========================= 
     Faq part start
 =========================== */
-.faq{
+.faq {
   padding: 128px 0px;
 }
-.faq .title h2{
+.faq .title h2 {
   font-size: 38px;
   width: 328px;
   line-height: 56px;
 }
-.faq .accordion-item{
+.faq .accordion-item {
   border: 0px !important;
 }
-.faq .accordion-header{
+.faq .accordion-header {
   /* border-bottom: 1px solid #ECECF1; */
   padding: 12px 0px;
-
 }
 
-.faq .accordion-button{
-  color: #282938 ;
+.faq .accordion-button {
+  color: #282938;
   font-size: 24px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-
 }
-.faq .accordion-button span{
-  color: #2405F2 ;
+.faq .accordion-button span {
+  color: #2405f2;
   font-size: 24px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   padding-right: 59px;
-
 }
-.faq .accordion-body p{
-  
-  padding: 0px 84px ;
-
+.faq .accordion-body p {
+  padding: 0px 84px;
 }
 
-.accordion-button .collapsed{
+.accordion-button .collapsed {
   background-color: transparent !important;
   color: #282938 !important;
-
 }
-.accordion-button{
-   background-color: transparent !important;
-   color: #282938 !important;
-
+.accordion-button {
+  background-color: transparent !important;
+  color: #282938 !important;
 }
-.accordion-button{
-    
-    box-shadow: 0px 0px 0px transparent !important;
+.accordion-button {
+  box-shadow: 0px 0px 0px transparent !important;
 }
 
-
-
-.accordion-button:not(.collapsed)::after{
+.accordion-button:not(.collapsed)::after {
   background-image: none;
   content: "x";
   transform: translateY(-50%) rotate(0);
-  
 }
-.accordion-button:after{
+.accordion-button:after {
   background-image: none;
   content: "+";
   transform: translateY(-50%) rotate(0);
-
 }
-
 
 /* ========================= 
     Faq part end
@@ -420,100 +400,89 @@ nav {
 /* ========================= 
     contact part start
 =========================== */
-.contact .row{
+.contact .row {
   --bs-gutter-x: 0rem;
-
 }
-.contact.row img{
+.contact.row img {
   width: 100%;
-
 }
 
-.contact .contact-image{
+.contact .contact-image {
   width: 100%;
   height: 100%;
   background: red;
   position: relative;
   overflow: hidden;
-
 }
-.contact .contact-image .overly{
+.contact .contact-image .overly {
   width: 100%;
   height: 100%;
-  background: rgb(0, 0, 0,0.50);
+  background: rgb(0, 0, 0, 0.5);
   position: absolute;
   top: 0;
   left: -100%;
   padding: 96px;
   color: white;
-  transition: .4s;
-  
+  transition: 0.4s;
 }
-.contact .contact-image:hover .overly{
-   left: 0%;
-
+.contact .contact-image:hover .overly {
+  left: 0%;
 }
 
-
-.contact .contact-content{
+.contact .contact-content {
   width: 100%;
   height: 100%;
-  background: #1C1E53;
+  background: #1c1e53;
   padding: 96px 96px 0px 96px;
 }
-.contact .contact-content h4{
-    color: #FFFFFF ;
+.contact .contact-content h4 {
+  color: #ffffff;
   font-size: 32px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-  
 }
-.contact .contact-content p{
-    color: #F4F6FC ;
+.contact .contact-content p {
+  color: #f4f6fc;
   font-size: 16px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
-margin-bottom: 0rem;
-padding-top: 16px;
-padding-bottom: 40px;
-
+  margin-bottom: 0rem;
+  padding-top: 16px;
+  padding-bottom: 40px;
 }
-.contact .contact-content input{
+.contact .contact-content input {
   width: 100%;
   padding: 18px 32px;
   background: transparent;
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255,0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   margin-bottom: 16px;
   color: white;
   font-size: 18px;
-
 }
-.contact .contact-content input::placeholder{
+.contact .contact-content input::placeholder {
   color: white;
   font-size: 16px;
-
 }
-.contact .contact-content input:nth-child(3){
+.contact .contact-content input:nth-child(3) {
   margin-bottom: 0px;
-  
 }
-.contact .contact-content button{
-  background: #FCD980;
+.contact .contact-content button {
+  background: #fcd980;
   padding: 16px 0px;
   width: 100%;
   border-radius: 41px;
   font-size: 18px;
-  color: #1B1C2B;
-   font-weight: 500;
+  color: #1b1c2b;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   margin-top: 39px;
   margin-bottom: 28px;
 }
-.contact .title{
+.contact .title {
   text-align: center;
 }
-.contact .viewpricing-button{
+.contact .viewpricing-button {
   color: white;
 }
 /* ========================= 
@@ -522,13 +491,83 @@ padding-bottom: 40px;
 /* ========================= 
     Blog part staet
 =========================== */
-.blog{
+.blog {
   padding: 128px 0px;
 }
-.blog .card{
+.blog .card {
   margin-top: 40px;
-
 }
 /* ========================= 
     Blog part end
+=========================== */
+/* ========================= 
+    footer part start
+=========================== */
+footer {
+  background: #1c1e53;
+  padding: 96px 0px;
+}
+footer .p1 {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  width: 399px;
+  padding-top: 22px;
+}
+footer .title h2{
+  color: #ffffff;
+}
+footer .title p{
+  color: rgba(255, 255, 255,0.80);
+  line-height: 36px;
+  padding-bottom: 28px;
+}
+footer ul{
+  display: flex;
+  column-gap: 34px;
+}
+footer ul li a{
+  color: white;
+  font-size: 18px;
+
+}
+
+footer .contact-part{
+  width: 517px;
+  padding: 18px 0px;
+  background: #fcd980;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: -96px;
+  left: 0;
+}
+.footer-below{
+  padding: 32px 0px;
+}
+.footer-below p{
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0rem;
+
+
+}
+.footer-below .navbar-nav{
+ 
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+.footer-below .navbar-nav .nav-link{
+ 
+  color: #282938;
+  
+}
+
+/* ========================= 
+    footer part end
 =========================== */

@@ -1,0 +1,35 @@
+@media (min-width:320px) and (max-width:575.99px){
+    /* Navber responsive start */
+nav button:focus {
+    box-shadow: 0 0 0 transparent !important;
+}
+nav button{
+    border: 1px solid white !important;
+
+}
+nav button i{
+   color: white;
+   font-size: 18px;
+}
+.navbar-collapse{
+
+    background: rgba(38, 130, 146, 0.678);
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+.navbar-nav{
+    align-items: center;
+    padding:20px 0px;
+}
+.nav-link{
+    font-size: 14px;
+}
+.nav-button{
+    padding: 12px 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 0;
+
+}
+/* Navber responsive end */
+}
