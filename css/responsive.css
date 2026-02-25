@@ -1,35 +1,788 @@
-@media (min-width:320px) and (max-width:575.99px){
-    /* Navber responsive start */
-nav button:focus {
+@media (min-width: 320px) and (max-width: 575.99px) {
+  /* Navber responsive start */
+  nav button:focus {
     box-shadow: 0 0 0 transparent !important;
-}
-nav button{
+  }
+  nav button {
     border: 1px solid white !important;
-
-}
-nav button i{
-   color: white;
-   font-size: 18px;
-}
-.navbar-collapse{
-
+  }
+  nav button i {
+    color: white;
+    font-size: 18px;
+  }
+  .navbar-collapse {
     background: rgba(38, 130, 146, 0.678);
     border-radius: 10px;
     margin: 20px 0px;
-}
-.navbar-nav{
+  }
+  .navbar-nav {
     align-items: center;
-    padding:20px 0px;
-}
-.nav-link{
+    padding: 20px 0px;
+  }
+  .nav-link {
     font-size: 14px;
-}
-.nav-button{
+  }
+  .nav-button {
     padding: 12px 30px;
     margin-bottom: 20px;
     font-size: 14px;
     margin-left: 0;
+  }
+  /* Navber responsive end */
+  /* Banner responsive start */
+  .banner h1 {
+	font-size: 34px;
+	text-align: center;
+	line-height: 45px;
+}
+
+.banner p {
+	font-size: 14px;
+	width: auto;
+	line-height: 28px;
+	text-align: center;
+}
+.banner .banner-button {
+	padding: 8px 26px;
+	font-size: 14px;
+	
+}
+.viewpricing-button {
+	font-size: 14px;
+	margin-left: 30px;
+	
+}
+.banner .banner-image{
+    text-align: center;
+}
+.banner .banner-image img{
+    width: 90%;
+    margin-top: 60px;
 
 }
-/* Navber responsive end */
+  /* Banner responsive end */
+  /* Work part responsive stast */
+  .title h2 {
+	font-size: 36px;
+	text-align: center;
+}
+.title p {
+	font-size: 14px;
+	width: auto;
+	text-align: center;
+}
+.title .viewpricing-button {
+	margin-left: 22px;
+}
+
+.title a {
+	font-size: 14px;
+}
+.work-card {
+     justify-content: center;
+     margin-top: 40px;
+}
+
+.work-card .col-lg-6{
+    box-shadow: 0px 0px 10px black;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px 10px;
+
+}
+.work .work-card h4 {
+	font-size: 28px;
+	
+}
+.work .work-card p {
+	font-size: 14px;
+	width: auto;
+}
+  /* Work part responsive end */
+  /* Project part responsive start */
+  .title h2 {
+	font-size: 22px;
+	text-align: center;
+}
+  .title a {
+	font-size: 12px;
+}
+.project img{
+    width: 80%;
+}
+.project img:nth-child(1){
+    margin: 20px 0px;
+}
+  /* Project part responsive end */
+
+  .feature .title h2 {
+	width: auto;
+}
+.about .title h2 {
+	font-size: 36px;
+	width: auto;
+}
+.about h3 {
+	font-size: 25px;
+	
+	line-height: 41px;
+	text-align: center;
+}
+.about .profile {
+	
+	justify-content: center;
+}
+.faq .title h2 {
+	font-size: 28px;
+	width: auto;
+	line-height: 46px;
+}
+.title .viewpricing-button {
+	margin-left: 85px;
+}
+/* FAQ part respnsive start */
+.faq .accordion-button span {
+	font-size: 14px;
+	
+	padding-right: 19px;
+}
+.faq .accordion-button {
+	font-size: 14px;
+	font-weight: 400;
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: none;
+	transform: translateY(2%) rotate(0);
+}
+.accordion-button::after {
+	background-image: none;
+	transform: translateY(3%) rotate(0);
+}
+.faq .accordion-body p {
+	padding: 0px 6px;
+}
+.faq .accordion-header {
+	padding: 7px 0px;
+}
+/* FAQ part respnsive end */
+
+.contact .contact-content {
+	
+	padding: 27px 12px 32px 12px;
+}
+.contact .contact-content input {
+	padding: 9px 18px;
+	
+	font-size: 14px;
+}
+.contact .contact-content input::placeholder{
+    font-size: 12px;
+}
+.contact .contact-content button {
+	padding: 10px 0px;
+	
+	font-size: 14px;
+	
+}
+.title .viewpricing-button {
+	margin-left: -3px;
+}
+/* Footer part stqart */
+footer .contact-part {
+	width: auto;
+	padding: 10px;
+	bottom: -318px;
+	left: 19px;
+	border-radius: 10px;
+}
+footer .p1 {
+	font-size: 14px;
+
+	width: auto;
+	
+}
+/* Footer part stqart */
+
+
+
+
+
+
+}
+@media (min-width: 576px) and (max-width: 767.99px) {
+  /* Navber responsive start */
+  nav button:focus {
+    box-shadow: 0 0 0 transparent !important;
+  }
+  nav button {
+    border: 1px solid white !important;
+  }
+  nav button i {
+    color: white;
+    font-size: 18px;
+  }
+  .navbar-collapse {
+    background: rgba(38, 130, 146, 0.678);
+    border-radius: 10px;
+    margin: 20px 0px;
+  }
+  .navbar-nav {
+    align-items: center;
+    padding: 20px 0px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+  .nav-button {
+    padding: 12px 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 0;
+  }
+  /* Navber responsive end */
+  /* Banner responsive start */
+.banner h1 {
+	font-size: 40px;
+	text-align: center;
+	line-height: 58px;
+}
+
+.banner p {
+	font-size: 14px;
+	width: auto;
+	line-height: 28px;
+	text-align: center;
+}
+.banner .banner-button {
+	padding: 8px 26px;
+	font-size: 14px;
+	
+}
+.viewpricing-button {
+	font-size: 14px;
+	margin-left: 30px;
+	
+}
+.banner .banner-image{
+    text-align: center;
+}
+.banner .banner-image img {
+	width: 95%;
+	margin-top: 60px;
+}
+  /* Banner responsive end */
+  /* Work part responsive stast */
+  .title h2 {
+	font-size: 36px;
+	text-align: center;
+}
+.title p {
+	font-size: 14px;
+	width: auto;
+	text-align: center;
+}
+.title .viewpricing-button {
+	margin-left: 22px;
+}
+
+.title a {
+	font-size: 14px;
+}
+.work-card {
+     justify-content: center;
+     margin-top: 40px;
+}
+
+.work-card .col-lg-6{
+    box-shadow: 0px 0px 10px black;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px 10px;
+
+}
+.work .work-card h4 {
+	font-size: 28px;
+	
+}
+.work .work-card p {
+	font-size: 14px;
+	width: auto;
+}
+  /* Work part responsive end */
+  /* Project part responsive start */
+.title h2 {
+	font-size: 36px;
+	text-align: center;
+}
+  .title a {
+	font-size: 12px;
+}
+.project img{
+    width: 80%;
+}
+.project img:nth-child(1){
+    margin: 20px 0px;
+}
+  /* Project part responsive end */
+
+  .feature .title h2 {
+	width: auto;
+}
+.about .title h2 {
+	font-size: 36px;
+	width: auto;
+}
+.about h3 {
+	font-size: 25px;
+	
+	line-height: 41px;
+	text-align: center;
+}
+.about .profile {
+	
+	justify-content: center;
+}
+.faq .title h2 {
+	font-size: 28px;
+	width: auto;
+	line-height: 46px;
+}
+.title .viewpricing-button {
+	margin-left: 85px;
+}
+/* FAQ part respnsive start */
+.faq .accordion-button span {
+	font-size: 14px;
+	
+	padding-right: 19px;
+}
+.faq .accordion-button {
+	font-size: 14px;
+	font-weight: 400;
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: none;
+	transform: translateY(2%) rotate(0);
+}
+.accordion-button::after {
+	background-image: none;
+	transform: translateY(3%) rotate(0);
+}
+.faq .accordion-body p {
+	padding: 0px 6px;
+}
+.faq .accordion-header {
+	padding: 7px 0px;
+}
+/* FAQ part respnsive end */
+
+.contact .contact-content {
+	
+	padding: 27px 12px 32px 12px;
+}
+.contact .contact-content input {
+	padding: 9px 18px;
+	
+	font-size: 14px;
+}
+.contact .contact-content input::placeholder{
+    font-size: 12px;
+}
+.contact .contact-content button {
+	padding: 10px 0px;
+	
+	font-size: 14px;
+	
+}
+.title .viewpricing-button {
+	margin-left: -3px;
+}
+/* Footer part stqart */
+footer .contact-part {
+	width: auto;
+	padding: 10px;
+	bottom: -318px;
+	left: 19px;
+	border-radius: 10px;
+}
+footer .p1 {
+	font-size: 14px;
+
+	width: auto;
+	
+}
+/* Footer part stqart */
+
+
+
+
+
+
+}
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* Navber responsive start */
+  nav button:focus {
+    box-shadow: 0 0 0 transparent !important;
+  }
+  nav button {
+    border: 1px solid white !important;
+  }
+  nav button i {
+    color: white;
+    font-size: 18px;
+  }
+  .navbar-collapse {
+    background: rgba(38, 130, 146, 0.678);
+    border-radius: 10px;
+    margin: 20px 0px;
+  }
+  .navbar-nav {
+    align-items: center;
+    padding: 20px 0px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+  .nav-button {
+    padding: 12px 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 0;
+  }
+  /* Navber responsive end */
+  /* Banner responsive start */
+.banner h1 {
+	font-size: 40px;
+	text-align: center;
+	line-height: 58px;
+}
+
+.banner p {
+	font-size: 14px;
+	width: auto;
+	line-height: 28px;
+	text-align: center;
+}
+.banner .banner-button {
+	padding: 8px 26px;
+	font-size: 14px;
+	
+}
+.viewpricing-button {
+	font-size: 14px;
+	margin-left: 30px;
+	
+}
+.banner .banner-image{
+    text-align: center;
+}
+.banner .banner-image img {
+	width: 95%;
+	margin-top: 60px;
+}
+  /* Banner responsive end */
+  /* Work part responsive stast */
+  .title h2 {
+	font-size: 36px;
+	text-align: center;
+}
+.title p {
+	font-size: 14px;
+	width: auto;
+	text-align: center;
+}
+.title .viewpricing-button {
+	margin-left: 22px;
+}
+
+.title a {
+	font-size: 14px;
+}
+.work-card {
+     justify-content: center;
+     margin-top: 40px;
+}
+
+.work-card .col-lg-6{
+    box-shadow: 0px 0px 10px black;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px 10px;
+
+}
+.work .work-card h4 {
+	font-size: 28px;
+	
+}
+.work .work-card p {
+	font-size: 14px;
+	width: auto;
+}
+  /* Work part responsive end */
+  /* Project part responsive start */
+.title h2 {
+	font-size: 36px;
+	text-align: center;
+}
+  .title a {
+	font-size: 12px;
+}
+.project img{
+    width: 80%;
+}
+.project img:nth-child(1){
+    margin: 20px 0px;
+}
+  /* Project part responsive end */
+
+  .feature .title h2 {
+	width: auto;
+}
+.about .title h2 {
+	font-size: 36px;
+	width: auto;
+}
+.about h3 {
+	font-size: 25px;
+	
+	line-height: 41px;
+	text-align: center;
+}
+.about .profile {
+	
+	justify-content: center;
+}
+.faq .title h2 {
+	font-size: 28px;
+	width: auto;
+	line-height: 46px;
+}
+.title .viewpricing-button {
+	margin-left: 85px;
+}
+/* FAQ part respnsive start */
+.faq .accordion-button span {
+	font-size: 14px;
+	
+	padding-right: 19px;
+}
+.faq .accordion-button {
+	font-size: 14px;
+	font-weight: 400;
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: none;
+	transform: translateY(2%) rotate(0);
+}
+.accordion-button::after {
+	background-image: none;
+	transform: translateY(3%) rotate(0);
+}
+.faq .accordion-body p {
+	padding: 0px 6px;
+}
+.faq .accordion-header {
+	padding: 7px 0px;
+}
+/* FAQ part respnsive end */
+
+.contact .contact-content {
+	
+	padding: 27px 12px 32px 12px;
+}
+.contact .contact-content input {
+	padding: 9px 18px;
+	
+	font-size: 14px;
+}
+.contact .contact-content input::placeholder{
+    font-size: 12px;
+}
+.contact .contact-content button {
+	padding: 10px 0px;
+	
+	font-size: 14px;
+	
+}
+.title .viewpricing-button {
+	margin-left: -3px;
+}
+/* Footer part stqart */
+footer .contact-part {
+	width: auto;
+	padding: 10px;
+	bottom: -318px;
+	left: 19px;
+	border-radius: 10px;
+}
+footer .p1 {
+	font-size: 14px;
+
+	width: auto;
+	
+}
+/* Footer part stqart */
+
+
+
+
+
+
+}
+@media (min-width: 992px) and (max-width: 1199.99px) {
+ 
+  /* Banner responsive start */
+.banner h1 {
+	font-size: 40px;
+	text-align: center;
+	line-height: 58px;
+}
+
+.banner p {
+	font-size: 14px;
+	width: auto;
+	line-height: 28px;
+	text-align: center;
+}
+.banner .banner-button {
+	padding: 8px 26px;
+	font-size: 14px;
+	
+}
+.viewpricing-button {
+	font-size: 14px;
+	margin-left: 30px;
+	
+}
+.banner .banner-image{
+    text-align: center;
+}
+.banner .banner-image img {
+	width: 95%;
+	margin-top: 60px;
+}
+  /* Banner responsive end */
+  /* Work part responsive stast */
+  .title h2 {
+	font-size: 36px;
+	text-align: center;
+}
+.title p {
+	font-size: 14px;
+	width: auto;
+	text-align: center;
+}
+.title .viewpricing-button {
+	margin-left: 22px;
+}
+
+.title a {
+	font-size: 14px;
+}
+
+  /* Work part responsive end */
+  /* Project part responsive start */
+.title h2 {
+	font-size: 36px;
+	text-align: center;
+}
+  .title a {
+	font-size: 12px;
+}
+
+  /* Project part responsive end */
+
+  .feature .title h2 {
+	width: auto;
+}
+.about .title h2 {
+	font-size: 36px;
+	width: auto;
+}
+.about h3 {
+	font-size: 25px;
+	
+	line-height: 41px;
+	text-align: center;
+}
+.about .profile {
+	
+	justify-content: center;
+}
+.faq .title h2 {
+	font-size: 28px;
+	width: auto;
+	line-height: 46px;
+}
+.title .viewpricing-button {
+	margin-left: 85px;
+}
+/* FAQ part respnsive start */
+.faq .accordion-button span {
+	font-size: 14px;
+	
+	padding-right: 19px;
+}
+.faq .accordion-button {
+	font-size: 14px;
+	font-weight: 400;
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: none;
+	transform: translateY(2%) rotate(0);
+}
+.accordion-button::after {
+	background-image: none;
+	transform: translateY(3%) rotate(0);
+}
+.faq .accordion-body p {
+	padding: 0px 6px;
+}
+.faq .accordion-header {
+	padding: 7px 0px;
+}
+/* FAQ part respnsive end */
+
+.contact .contact-content {
+	
+	padding: 27px 12px 32px 12px;
+}
+.contact .contact-content input {
+	padding: 9px 18px;
+	
+	font-size: 14px;
+}
+.contact .contact-content input::placeholder{
+    font-size: 12px;
+}
+.contact .contact-content button {
+	padding: 10px 0px;
+	
+	font-size: 14px;
+	
+}
+.title .viewpricing-button {
+	margin-left: -3px;
+}
+/* Footer part stqart */
+footer .contact-part {
+	width: auto;
+	padding: 10px;
+	bottom: -318px;
+	left: 19px;
+	border-radius: 10px;
+}
+footer .p1 {
+	font-size: 14px;
+
+	width: auto;
+	
+}
+/* Footer part stqart */
+
+
+
+
+
+
 }
